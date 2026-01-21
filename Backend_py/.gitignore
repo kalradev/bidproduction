@@ -1,0 +1,51 @@
+# Python backend ignores
+
+# --- Secrets / env files ---
+.env
+.env.*
+!.env.example
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+
+# --- Python cache / build ---
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+
+# --- Test / tooling caches ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Logs / pid ---
+*.log
+server.log
+server_log.txt
+pid_info.txt
+
+# --- Runtime uploads / generated data ---
+uploads/
+data/
+
+# --- Local databases ---
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
